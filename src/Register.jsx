@@ -15,7 +15,7 @@ function Register(){
 
   const submit = async () =>{
     try{
-      const res = await axios.post("http://localhost:8080/reg",data);
+      const res = await axios.post("https://new-jtq0.onrender.com",data);
       alert(res.data);
     }
     catch(err){
@@ -37,3 +37,4 @@ function Register(){
   );
 }
 export default Register;
+
