@@ -15,7 +15,10 @@ function Register(){
 
   const submit = async () =>{
     try{
-      const res = await axios.post("https://new-jtq0.onrender.com",data);
+        const res = await axios.post(
+        "https://cabsystemsms-1.onrender.com/register",
+        data
+        )
       alert(res.data);
     }
     catch(err){
@@ -37,4 +40,5 @@ function Register(){
   );
 }
 export default Register;
+
 
