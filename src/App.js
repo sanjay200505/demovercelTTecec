@@ -1,12 +1,14 @@
-import { BrowserRouter , Routes , Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Register from "./Register";
-function App(){
-  return(
+
+function App() {
+  return (
     <BrowserRouter>
       <Routes>
-        <Route path="/register" element={<Register/>}/>
+        <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );
 }
+
 export default App;
